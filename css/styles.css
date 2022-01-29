@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+.my3{
+
+}
+#image{
+    float: center;
+    width: 450px;
+    padding-top: 50px;
+}
+.float{
+    float: right;
+    padding-right: 200px;
+}
+.tech{
+    padding-bottom: 260px;
+    color: chocolate;
+    height: 120px;
+}
+.syd{
+    padding-top: 10px;
+    width: 100px;
+    float: right;
+    size-adjust: 200px;
+}
