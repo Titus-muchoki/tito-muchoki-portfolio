@@ -24,3 +24,6 @@ body{
     float: right;
     size-adjust: 200px;
 }
+.d-flex{
+    text-align: center;
+}

@@ -1,329 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
-    <link
-      rel="stylesheet"
-      href="./bootstrap-5.1.3-dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/cc1a8ab208.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><i class="fas fa-home"></i>HOME</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-portfolio</title>
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://kit.fontawesome.com/cc1a8ab208.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Details</a>
+              <a class="nav-link " href="tt">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">profile</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">about tito muchoki</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">contacts</a></li>
-              </ul>
+
+            <li class="nav-item">
+              <a class="nav-link " href="tyu">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="tyy">Home</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+        </div>
       </div>
-</div>
-</nav>
-<div class="row">
-  <div class="col-md-4" style="color: blue;">
-      <i class="fab fa-facebook-square">@tito muchoki</i>
+    </div>
+  </nav>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/IMG_20200625_162034_647.jpg" class="d-block w-100 h-50" alt="...">
+        <div class="carousel-caption">
+          <strong>
+            <h1 class="display-2">BEST OF TITO MUCHOKI</h1>
+          </strong>
+          <h3>how i became a developer</h3>
+          <button type="button" class="btn btn-primary">view demo</button>
+          <button type="button" class="btn btn-secondary">get started</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/IMG_20200905_153409_541.jpg" class="d-block w-100 h-50" alt="...">
+        <div class="carousel-caption">
+          <strong>
+            <h1 class="display-2">BEST OF TITO MUCHOKI</h1>
+          </strong>
+          <h3>how i became a developer</h3>
+          <button type="button" class="btn btn-primary">view demo</button>
+          <button type="button" class="btn btn-secondary"><a href="#getstarted">getstarted</a></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/tito.jpg" class="d-block w-100 h-50" alt="...">
+        <div class="carousel-caption">
+          <strong>
+            <h1 class="display-2">BEST OF TITO MUCHOKI</h1>
+          </strong>
+          <h3>how i became a developer</h3>
+          <button type="button" class="btn btn-primary">view demo</button>
+          <a href="getstarted" target="_blank">
+            <button type="button" class="btn btn-secondary">get started</button>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-md-4" style="color: blueviolet;">
-      <i class="fab fa-twitter-square">@kajela</i>
-    </div>
-    <div class="col-md-4" style="color: red;">
-      <i class="fab fa-instagram">@kajela_to_the_world</i>
-    </div>
-    </div>
+  <section id="getstarted">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2><strong> tito muchoki portfolio</strong></h2>
+          <h2><strong> TITO MUCHOKI my-portfolio</strong></h2>
+          <a href=" https://titus-muchoki.github.io/AUSTRALIA/" target="_blank">
+          </a>
+          <button class="link-primary">my projects</button>
+          <button class="link-primary">about</button>
+          <button class="link-primary">contacts</button>
           <p>
-            titus muchoki is my name, born in a family of five and i happen to
-            be the last born. i was born in 1999 aand joined school in 2004 that
+            Titus muchoki is my name, am born in a family of five and i happen to
+            be the last born. I was born in 1999 and joined school in 2004, that's
             when my journey in education started,i finished my primary education
             in 2013 where i attained good marks which earned me a place at
-            muhoho high school. I used my four years well in muhoho untill i did
-            my kcse in 2017. i happened to join zetech university in jan 2018
-            where i did my icdl and attained knowledge in 7 ICT related units.
+            muhoho high school. I used my four years well in muhoho high school untill i did
+            my KSCE in 2017. I happened to join zetech university in jan 2018
+            where i did my ICDL and attained knowledge in 7 ICT related units.
             thats where my jouney in the field of ICT started something i hadnt
-            planned. after finishing my icdl i joined kca university where i
+            planned. After finishing my icdl, i joined KCA university where i
             started my ICT course at a certificate level, then did it at diploma
             level and now am doing my bachelors in BSC IT. I also happened to
-            develop intrest in networking and i did the three stages of cisco
-            which also helped me understand security network related issues. now
+            develop intrest in networking and i did the three stages of CCNA(cisco)
+            which also helped me understand security network related issues. Now
             am majoring in programming where am already expirienced in seven
             technologies and by the end of 2022 i want to be experinced and
-            expert in more than fifteen technologies.
+            expert in more than fifteen technologies. Yes hardwork and patience pays.
           </p>
         </div>
       </div>
       <div class="row">
-          <div class="col-md-4">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./images/13019.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/IMG_20200625_201447_814.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./images/IMG_20201122_104421_705.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+        <div class="col-md-4">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/13019.jpg" class="d-block w-100" alt="...">
               </div>
-          </div>
-      </div>
-      <section class="my3">
-      <div class="row">
-      <div class="col-md-4">
-      <h3>how i become a developer</h3>
-      <p>
-        Becoming a developer was one of my biggest win i have achieved in my career as an ICT guy.
-        i love coding i spend almost all my time coding, its through concentration and dedication that  was able to achieve
-        this. i always thought i will never be good at coding until my friend introduced me to it and showed me 
-        the basics, i used to do part time class with him on zoom untill i started undersdandind.
-      </p>
-    </section>
-      <section id="image" style="width: 50;">
-      <img src="./images/black.jpg " class="img-fluid" alt="">
-    </section>
- </div>
-     </div>
-    </div>
-    <section class="float">
-     <div class="container">
-     <div class="row">
-       <div class="col-md-6">
-        <div class="row g-2">
-          <div class="col-md">
-            <div class="form-floating">
-              <input type="email" class="form-control" id="floatingInputGrid" placeholder=".com" value="titoyut56@gmail.com">
-              <label for="floatingInputGrid">Email address</label>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG_20200625_201447_814.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG_20201122_104421_705.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="form-floating">
-              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <label for="floatingSelectGrid">Works with selects</label> 
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <section class="my3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>How I Become A Developer</h3>
+            <p>
+              Becoming a developer was one of my biggest win i have achieved in my career as an ICT guy.
+              i love coding i spend almost all my time coding, its through concentration and dedication that was able to
+              achieve
+              this. I once thought i will never be good at programming until my friend introduced me to it and showed me
+              the basics, i used to do part time class with him on zoom untill i started undersdandind the concept.Now i
+              can comfortably
+              learn on my own only do few consoltation where i dont understand.
+            </p>
+    </section>
+    <section id="image" style="width: 50;">
+      <img src="./images/black.jpg " class="img-fluid" alt="">
+    </section>
+    </div>
+    </div>
+    </div>
+    </div>
+    <section class="float">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder=".com"
+                    value="titoyut56@gmail.com">
+                  <label for="floatingInputGrid">Email address</label>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-floating">
+                  <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <label for="floatingSelectGrid">Works with selects</label>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-       </div>
-     </div>
-    </div>
-       </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Technologies That I Have More Than Three Years Of Expirience With</h3>
+          <p>This are some of the technologies am willing to offer to any company that
+            is willing to hire me.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li>terminals</li><br>
+              <li>markdown language</li><br>
+              <li>git $github</li><br>
+              <li>html</li><br>
+              <li>css</li><br>
+              <li>bootstrap</li><br>
+              <li>javascript</li><br>
+              <li>jquerry</li><br>
+              <li>typescript</li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="d-flex">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>C and C++ Programming</h5>
+            <p>I do understand c and c++ programming but i prefer doing it in a java way.
+              Soon i want to learn python so i can be able to implement my knowledge in blockchain, crypto and digital
+              curencies
+            </p>
+            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title"
+              data-bs-content="And here's some amazing content. It's very engaging. Right?">Click me</button>
+          </div>
+        </div>
       </section>
-      <div class="container">
-         <div class="row">
-           <div class="col-md-12">
-             <h3>technologies that i have more than three years of expirience with</h3>
-             <p>this are some of the technologies am willing to offer to any company that 
-               is willing to hire me
-             </p>
-           </div>
-  <div class="row">
-  <div class="col-md-4">
-  <ul>
-    <li>terminals</li><br>
-    <li>markdown language</li><br>
-    <li>git $github</li><br>
-    <li>html</li><br>
-    <li>css</li><br>
-    <li>bootstrap</li><br>
-    <li>javascript</li><br>
-    <li>jquerry</li><br>
-    <li>typescript</li><br>
-  </ul>
-  </div>
-</div>
-</div>
-<div class="row">
-  <div class="col-md-8">
-<h4>use the folowing links</h4>
-<p>you can use this links to learn some basic about the folowing technologies</p>
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">terminals</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">git$github</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">html</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link">css</a>
-  </li>
-</ul>
-</div>
-</div>
-<hr>
-<h4>input your details here if you want to learn with me or work with me.</h4>
-<form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationCustom01" value="" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Username</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-      <div class="invalid-feedback">
-        Please choose a username.
+      <div class="row">
+        <div class="col-md-8">
+          <h4>Use The Folowing Links</h4>
+          <p>You can use this links to learn some basic about the folowing technologies</p>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">terminals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">git$github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">css</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <label for="validationCustom03" class="form-label">City</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
-    <div class="invalid-feedback">
-      Please provide a valid city.
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">State</label>
-    <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>...</option>
-    </select>
-    <div class="invalid-feedback">
-      Please select a valid state.
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="validationCustom05" required>
-    <div class="invalid-feedback">
-      Please provide a valid zip.
-    </div>
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </div>
-</form>
-<hr>
-<div class="row">
-  <div class="col-sm-3">
-      <img src="./images/css.jpg" class="card-img-top" alt="...">
-    </div>
-  <div class="col-sm-3">
-      <img src="./images/bootstrap.png" class="card-img-top" alt="...">
-    </div>
-      <div class="col-sm-4">
+      <hr>
+      <h4>Input Your Details Here If You Want To Learn With Me Or Work With Me.</h4>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+              required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+      <hr>
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="./images/css.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="col-sm-3">
+          <img src="./images/bootstrap.png" class="card-img-top" alt="...">
+        </div>
+        <div class="col-sm-4">
           <img src="./images/java.jpg" class="card-img-top" alt="...">
         </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-4">
-      <ul>
-        <li>born to code</li>
-        <li>ICT expert</li>
-        <li>programmer</li>
-      </ul>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <li>born to code</li>
+            <li>ICT expert</li>
+            <li>programmer</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>contacts</li>
+            <li>0717553340</li>
+            <li>titoyut56@gmail.com</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>attachment</li>
+            <li>internship</li>
+            <li>employment</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <ul>
-        <li>contacts</li>
-        <li>0717553340</li>
-        <li>titoyut56@gmail.com</li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul>
-        <li>attachment</li>
-        <li>internship</li>
-        <li>employment</li>
-      </ul>
-    </div>
-  </div>
-  
-  
+  </section>
+  <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
 
-</div>
-   
-    <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-  </body>
 </html>
