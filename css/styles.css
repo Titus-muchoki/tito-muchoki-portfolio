@@ -1,9 +1,6 @@
 body{
     background-color: azure;
 }
-.my3{
-
-}
 #image{
     float: center;
     width: 450px;
@@ -26,4 +23,7 @@ body{
 }
 .d-flex{
     text-align: center;
+}
+#hobbies{
+    
 }
